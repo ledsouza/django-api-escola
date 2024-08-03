@@ -33,7 +33,7 @@ class ListaMatriculasEstudanteSerializer(serializers.ModelSerializer):
 
 
 class ListaMatriculasCursoSerializer(serializers.ModelSerializer):
-    estudante_nome = serializers.ReadOnlyField('estudante.nome')
+    estudante_nome = serializers.ReadOnlyField(source='estudante.nome')
 
     class Meta:
         model = Matricula
