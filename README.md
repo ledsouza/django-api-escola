@@ -1,6 +1,6 @@
 ## API Escola - Django REST Framework
 
-![Static Badge](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Static Badge](https://img.shields.io/badge/Status-Finalizado-green)
 
 ## Descrição
 
